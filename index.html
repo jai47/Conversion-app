@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Converter</title>
+</head>
+
+<body id="bdy">
+    <div class="wrapper" id="wrapper">
+        <div class="form">
+            <h3>Converter</h3>
+            <select id="Converter">
+                <option value="0">-- Select --</option>
+                <option value="1">Data Conversion</option>
+                <option value="2">Length Conversion</option>
+                <option value="3">Mass Conversion</option>
+                <option value="4">Temperature Conversion</option>
+            </select>
+            <input type="text" value="" id="feildText" placeholder="Enter a number">
+            <div class="dropList">
+                    <select name="" id="select1">
+                        <option value="0">--select--</option>
+                    </select>
+                <i class="bx bx-transfer-alt"></i>
+                    <select name="" id="select2">
+                        <option value="0">--select--</option>
+                    </select>
+            </div>
+            <p id="result"></p>
+            <button class="btn" id="calc">Convert</button>
+        </div>
+    </div>
+    <script src="/script/database.js"></script>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
